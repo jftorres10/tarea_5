@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.5.17)  24 MAY 2017 20:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.5.17)  25 MAY 2017 00:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -132,11 +132,16 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<histrogramax.png, id=1, 578.16pt x 433.62pt>
-File: histrogramax.png Graphic file (type png)
- <use histrogramax.png>
-Package pdftex.def Info: histrogramax.png used on input line 12.
-(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+<radio_de_poro.png, id=1, 578.16pt x 433.62pt>
+File: radio_de_poro.png Graphic file (type png)
+ <use radio_de_poro.png>
+Package pdftex.def Info: radio_de_poro.png used on input line 12.
+(pdftex.def)             Requested size: 404.70924pt x 303.53192pt.
+
+Overfull \hbox (59.70924pt too wide) in paragraph at lines 12--13
+[][] 
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
@@ -144,22 +149,157 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./histrogramax.png>]
-(./Resultados_HW5.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./radio_de_poro.png>]
+<histrogramax.png, id=10, 578.16pt x 433.62pt>
+File: histrogramax.png Graphic file (type png)
+ <use histrogramax.png>
+Package pdftex.def Info: histrogramax.png used on input line 19.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+[2 <./histrogramax.png>] <histrogramay.png, id=15, 578.16pt x 433.62pt>
+File: histrogramay.png Graphic file (type png)
+
+<use histrogramay.png>
+Package pdftex.def Info: histrogramay.png used on input line 26.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+[3 <./histrogramay.png>] <histrogramar.png, id=20, 578.16pt x 433.62pt>
+File: histrogramar.png Graphic file (type png)
+
+<use histrogramar.png>
+Package pdftex.def Info: histrogramar.png used on input line 33.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+[4 <./histrogramar.png>] <radio_de_poro1.png, id=25, 578.16pt x 433.62pt>
+File: radio_de_poro1.png Graphic file (type png)
+
+<use radio_de_poro1.png>
+Package pdftex.def Info: radio_de_poro1.png used on input line 40.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+[5 <./radio_de_poro1.png>] <histrogramax1.png, id=30, 578.16pt x 433.62pt>
+File: histrogramax1.png Graphic file (type png)
+
+<use histrogramax1.png>
+Package pdftex.def Info: histrogramax1.png used on input line 47.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+[6 <./histrogramax1.png>] <histrogramay1.png, id=35, 578.16pt x 433.62pt>
+File: histrogramay1.png Graphic file (type png)
+
+<use histrogramay1.png>
+Package pdftex.def Info: histrogramay1.png used on input line 55.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+[7 <./histrogramay1.png>] <histrogramar1.png, id=41, 578.16pt x 433.62pt>
+File: histrogramar1.png Graphic file (type png)
+
+<use histrogramar1.png>
+Package pdftex.def Info: histrogramar1.png used on input line 63.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+[8 <./histrogramar1.png>] <modelo_Vs_datos.png, id=46, 578.16pt x 433.62pt>
+File: modelo_Vs_datos.png Graphic file (type png)
+
+<use modelo_Vs_datos.png>
+Package pdftex.def Info: modelo_Vs_datos.png used on input line 74.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--78
+
+ []
+
+[9 <./modelo_Vs_datos.png>] <distribucion.png, id=51, 578.16pt x 433.62pt>
+File: distribucion.png Graphic file (type png)
+
+<use distribucion.png>
+Package pdftex.def Info: distribucion.png used on input line 81.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+[10 <./distribucion.png>] <histogramaC.png, id=56, 578.16pt x 433.62pt>
+File: histogramaC.png Graphic file (type png)
+
+<use histogramaC.png>
+Package pdftex.def Info: histogramaC.png used on input line 88.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+[11 <./histogramaC.png>] <histogramaR.png, id=61, 578.16pt x 433.62pt>
+File: histogramaR.png Graphic file (type png)
+
+<use histogramaR.png>
+Package pdftex.def Info: histogramaR.png used on input line 95.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+[12 <./histogramaR.png>] (./Resultados_HW5.aux) ) 
 Here is how much of TeX's memory you used:
- 1462 strings out of 495028
- 20997 string characters out of 6181497
+ 1517 strings out of 495028
+ 22121 string characters out of 6181497
  73151 words of memory out of 5000000
- 4692 multiletter control sequences out of 15000+600000
+ 4736 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 37i,6n,23p,242b,213s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb>
-Output written on Resultados_HW5.pdf (1 page, 34575 bytes).
+ 37i,7n,23p,433b,213s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on Resultados_HW5.pdf (12 pages, 308328 bytes).
 PDF statistics:
- 15 PDF objects out of 1000 (max. 8388607)
- 8 compressed objects within 1 object stream
+ 72 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

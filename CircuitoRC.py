@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
 import random
 import numpy
 
@@ -9,7 +8,7 @@ datos= np.genfromtxt('CircuitoRC.txt')
 x_tiempo = datos[:,0]
 y_carga = datos[:,1]
 
-
+# basado en el repositorio de github del curso de metodos computacionales 
 
 def likelihood(y_obs, y_model):
     chi_squared = sum((y_obs-y_model)**2)
@@ -21,12 +20,12 @@ def mi_modelo(x_tiempo, R, C):
     return Qmax*(1.0 - np.exp(-x_tiempo/(R*C)))
 
 
-
+# los valores inciales tentativos para R y C 
 R= 7
 C= 15
 
 
-R_camino =[]  #this is an empty list to keep all the steps
+R_camino =[]  
 C_camino= []
 l_camino = []
 
@@ -37,7 +36,7 @@ C_camino.append(C)
 y_carga_inicial = mi_modelo(x_tiempo, R_camino[0], C_camino[0])
 l_camino.append(likelihood(y_carga, y_carga_inicial))
 
-n_iter = 10000
+n_iter = 22001
 for i in range (n_iter):
     R_nuevo=  np.random.normal(R_camino[i], 0.1) 
     C_nuevo = np.random.normal(C_camino[i], 0.1)
@@ -94,7 +93,6 @@ plt.plot(x_tiempo,mejor, lw=2, color='r')
 plt.xlabel('tiempo')
 plt.ylabel('carga')
 plt.title('R='+str(mejor_R) + ' C='+str(mejor_C) )
-plt.savefig('modelo_Vs_datos.png')
 plt.xlabel('tiempo')
 plt.ylabel('carga')
 plt.title('R='+str(mejor_R) + ' C='+str(mejor_C) )
