@@ -1,12 +1,11 @@
 
 
-Resultados_hw5.pdf : Resultados_hw5.tex *.png
-	pdflatex Resultados_hw5.tex
-*.png: CircuitoRC.py *.dat
+Resultados_hw5.pdf : Resultados_HW5.tex *.png
+	pdflatex Resultados_HW5.tex	
+*.png: plots_canal_ionico.py  CircuitoRC.py *.dat
+	python plots_canal_ionico.py 
 	python CircuitoRC.py
-*.png: plots_canal_ionico.py *.dat
-	python plots_canal_ionico.py
 datos.dat: a.out 
-	./a.out > datos.dat
+	./a.out > archivos_salida0.dat archivos_salida1.dat
 a.out: canal_icono.c
-	gcc canal_icono.c
+	gcc canal_icono.c -lm

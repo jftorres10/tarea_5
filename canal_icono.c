@@ -3,16 +3,49 @@
 #include <math.h>
 
 int condi_frontera(double x, double y , double r, double *xdatos, double *ydatos, int n );
+void funcion_Canal_ionico0( int caso , double x, double y , double r , double var );
 double Num_aleat (double limite );
 int main()
 {
+	
+	
+	double x=5.0;
+	double y=5.0;
+	double r= 1.0;
+	double var= 0.1;
+
+	funcion_Canal_ionico0(0,x,y,r,var);
+	funcion_Canal_ionico0(1,x,y,r,var);
+}
+
+
+void funcion_Canal_ionico0( int caso , double x, double y , double r , double var )
+{
 FILE *in;
+FILE *out;
+
+if (caso == 1)
+{
+	
+	in= fopen("Canal_ionico.txt","r");
+	out = fopen("archivo_salida0.dat","w");
+}
+else 
+	{
+	in= fopen("Canal_ionico1.txt","r");
+	out = fopen("archivo_salida1.dat","w");
+	}	
+
+
+
+
+
 int i ;
 int n = 42;
 double *xdatos = malloc(n*sizeof(double));
 double *ydatos = malloc(n*sizeof(double));
 
-in= fopen("Canal_ionico.txt","r");
+
 for ( i = 0; i < n; ++i)
 {
 	fscanf(in, "%lf %lf\n",&xdatos[i], &ydatos[i]);
@@ -20,10 +53,7 @@ for ( i = 0; i < n; ++i)
 	/*printf("valores x %f valores y %f\n",xdatos[i], ydatos[i]); lee los datos */
 }
 
-double x=5.0;
-double y=5.0;
-double r= 1.0;
-double var= 0.1;
+printf("datos impresos  \n" );
 
 int max_iter = 1000;
 
@@ -82,7 +112,7 @@ for (i = 1; i < max_iter; ++i)
 	 	random_walk_y[i] = random_walk_y[i-1];
 	 	random_walk_r[i] = random_walk_r[i-1];
 	}
-	printf("%f %f %f\n",random_walk_x[i],random_walk_y[i],random_walk_r[i]);
+	fprintf(out ,"%f %f %f\n",random_walk_x[i],random_walk_y[i],random_walk_r[i]);
 }
 
 }

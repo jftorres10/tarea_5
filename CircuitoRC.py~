@@ -79,7 +79,7 @@ plt.xlabel('tiempo')
 
 plt.figure()
 count, bins, ignored =plt.hist(C_camino, 20, normed=True)
-plt.savefig('histogramaC.png')
+plt.savefig('distribucionC.png')
 
 
 max_likelihood_id = np.argmin(l_camino)
